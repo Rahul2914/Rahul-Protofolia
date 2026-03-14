@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rahul Kumar Raj | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">RAHUL · PORTFOLIO</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div>
+        <div class="hero-eyebrow">Software Engineer · Problem Solver</div>
+        <h1 class="hero-title">I’m <span>Rahul Kumar Raj</span>, building reliable products for the web.</h1>
+        <p class="hero-subtitle">
+          I design, build and ship performant web applications with clean architectures,
+          strong fundamentals and a focus on long‑term maintainability.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">
+            Let’s work together <span>→</span>
+          </a>
+          <a href="#projects" class="btn-ghost">
+            View selected projects
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="hero-meta-dot"></span> Open to opportunities</span>
+          <span>Based in India · Remote friendly</span>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-hidden="true">
+        <div class="hero-card-header">
+          <div class="hero-card-dots">
+            <div class="hero-card-dot red"></div>
+            <div class="hero-card-dot amber"></div>
+            <div class="hero-card-dot green"></div>
+          </div>
+          <div class="hero-card-title">rahul.dev · terminal</div>
+        </div>
+        <div class="hero-pill">
+          <span class="hero-pill-dot"></span>
+          <span>Now coding</span>
+        </div>
+        <pre class="hero-code"><code><span class="token-comment">// quick snapshot</span>
+<span class="token-keyword">const</span> <span class="token-fn">rahul</span> = {
+  name: "<span class="token-str">Rahul Kumar Raj</span>",
+  role: "<span class="token-str">Software Engineer</span>",
+  focus: ["<span class="token-str">clean architecture</span>", "<span class="token-str">robust APIs</span>", "<span class="token-str">delightful UI</span>"],
+  currently: "<span class="token-str">shipping full‑stack features & improving performance</span>"
+}
+
+<span class="token-keyword">function</span> <span class="token-fn">buildWith</span>(stack) {
+  <span class="token-comment">// collaborate, iterate, ship</span>
+  <span class="token-keyword">return</span> stack
+    .map(tool =&gt; tool.trim())
+    .filter(Boolean)
+    .includes("<span class="token-str">shipping to production</span>")
+}
+
+</code></pre>
+      </aside>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="section-label">About</div>
+      <h2 class="section-title">Who I am</h2>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-pill">
+            <span>👋</span>
+            <span>Software Engineer · Builder</span>
+          </div>
+          <p>
+            I’m <strong>Rahul</strong>, a software engineer who enjoys turning ideas into
+            reliable, production‑ready applications. I care deeply about clean code,
+            thoughtful abstractions and user‑centric experiences.
+          </p>
+          <p>
+            I love working across the stack — from designing API contracts and data models
+            to crafting polished interfaces that feel fast and intuitive. For me, quality
+            means code that is easy to reason about, easy to test and easy to extend.
+          </p>
+          <p>
+            When I’m not debugging or refactoring, you’ll usually find me exploring new
+            tools, reading about system design patterns or experimenting with small side
+            projects.
+          </p>
+        </div>
+
+        <div>
+          <div class="about-card" style="margin-bottom: 16px;">
+            <strong>What I bring to a team</strong>
+            <div class="about-badges">
+              <span class="badge">Clear communication</span>
+              <span class="badge">Ownership mindset</span>
+              <span class="badge">Pragmatic engineering</span>
+              <span class="badge">Mentoring & collaboration</span>
+            </div>
+          </div>
+          <div class="about-card">
+            <strong>What I’m looking for</strong>
+            <div class="about-badges">
+              <span class="badge">Product‑focused teams</span>
+              <span class="badge">Challenging problems</span>
+              <span class="badge">Impactful features</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="section-label">Skills</div>
+      <h2 class="section-title">Tech I work with</h2>
+      <div class="chips">
+        <span class="chip"><strong>Languages</strong> · TypeScript, JavaScript, Python, Java</span>
+        <span class="chip"><strong>Frontend</strong> · React, Next.js, HTML5, CSS3, Tailwind</span>
+        <span class="chip"><strong>Backend</strong> · Node.js, Express, REST, GraphQL</span>
+        <span class="chip"><strong>Databases</strong> · PostgreSQL, MySQL, MongoDB</span>
+        <span class="chip"><strong>Cloud & DevOps</strong> · Docker, CI/CD, Linux, basic AWS</span>
+        <span class="chip"><strong>Practices</strong> · Clean code, testing, code reviews</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="section-label">Projects</div>
+      <h2 class="section-title">Selected work</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-tag">Featured · Full‑stack</div>
+          <h3 class="project-title">Project One – TaskFlow</h3>
+          <p class="project-desc">
+            End‑to‑end task management web app with real‑time updates, role‑based access
+            and clean Kanban‑style UI to keep teams aligned.
+          </p>
+          <div class="project-meta">
+            <span>React · Node.js · PostgreSQL</span>
+            <span>Responsive · Auth · RBAC</span>
+          </div>
+          <a href="#" class="project-link" target="_blank" rel="noreferrer">
+            View code / live demo →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-tag">Frontend</div>
+          <h3 class="project-title">Project Two – DevPortfolio</h3>
+          <p class="project-desc">
+            A minimal, blazing‑fast developer portfolio template with dark mode,
+            smooth scrolling and focus on readability and content hierarchy.
+          </p>
+          <div class="project-meta">
+            <span>Next.js · Tailwind</span>
+            <span>Static generation</span>
+          </div>
+          <a href="#" class="project-link" target="_blank" rel="noreferrer">
+            View code / live demo →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-tag">Backend</div>
+          <h3 class="project-title">Project Three – API Kit</h3>
+          <p class="project-desc">
+            Opinionated backend boilerplate with structured logging, error handling,
+            JWT auth and ready‑to‑use patterns for building REST APIs.
+          </p>
+          <div class="project-meta">
+            <span>Node.js · Express</span>
+            <span>Testing · Best practices</span>
+          </div>
+          <a href="#" class="project-link" target="_blank" rel="noreferrer">
+            View code / live demo →
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="section-label">Experience</div>
+      <h2 class="section-title">Where I’ve been</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Software Engineer · Company Name</h3>
+          <div class="timeline-meta">2023 – Present · Location / Remote</div>
+          <p class="timeline-points">
+            Building and maintaining production features across the stack, collaborating
+            closely with design and product to ship high‑quality releases.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Software Engineer Intern · Company Name</h3>
+          <div class="timeline-meta">Year – Year · Location</div>
+          <p class="timeline-points">
+            Contributed to feature development, debugging and documentation while learning
+            engineering best practices from senior teammates.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title">Say hello</h2>
+
+      <div class="contact-card">
+        <div>
+          <h3 class="contact-title">Let’s build something together</h3>
+          <p class="contact-sub">
+            Whether you have a role in mind, a project to discuss or just want to connect,
+            feel free to reach out. I’m always open to interesting opportunities.
+          </p>
+          <p class="contact-meta">
+            Email: <a href="mailto:your.email@example.com">your.email@example.com</a><br />
+            GitHub: <a href="#" target="_blank" rel="noreferrer">github.com/your‑github</a><br />
+            LinkedIn: <a href="#" target="_blank" rel="noreferrer">linkedin.com/in/your‑profile</a>
+          </p>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks for reaching out!');">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me briefly what you’re looking for"></textarea>
+          </div>
+          <button class="btn-primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Rahul Kumar Raj. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
